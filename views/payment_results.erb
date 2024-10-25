@@ -28,7 +28,7 @@
     Payment
   </dt>
   <dd>
-    $<%= format("%.2f", @payment) %>
+    <%= @payment.to_fs(:currency) %>
   </dd>
 </dl>
 

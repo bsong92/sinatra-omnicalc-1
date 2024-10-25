@@ -13,6 +13,10 @@ get("/square/new") do
   erb(:new_square_calc)
 end
 
+get '/square/results' do
+  "Hello World"
+end
+
 get("/") do
   "
   <h1>Welcome to your Sinatra App!</h1>
